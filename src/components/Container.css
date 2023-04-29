@@ -1,0 +1,44 @@
+.container{
+    margin-top: 10vh;
+    height: 500px;
+    width: 500px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+input, select, button{
+    margin: 10px;
+    padding: 1rem;
+}
+
+button {
+    width: 40%;
+    border-radius: 25px;
+}
+
+select, button{
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+h1{
+    margin-bottom: 5vh;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+h3{
+    margin-top: 5vh;
+}
